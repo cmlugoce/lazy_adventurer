@@ -3,6 +3,7 @@ require 'open-uri'
 require 'pry'
 Module Lazy_adventurer
 class Destination
+  attr_accessor :name, :region, :url
 
   def self.list_places
      self.scrape_places
@@ -23,5 +24,6 @@ def self.scrape_places
   list
 end
 end
+
 
 end
