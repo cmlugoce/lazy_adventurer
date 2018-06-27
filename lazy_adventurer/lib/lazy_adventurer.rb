@@ -1,5 +1,4 @@
-require "lazy_adventurer/version"
-
-module LazyAdventurer
-  # Your code goes here...
-end
+require_relative "./lazy_adventurer/version"
+require_relative "./lazy_adventurer/destination"
+require_relative "./lazy_adventurer/country"
+require_relative "./cli"
