@@ -3,7 +3,7 @@ require 'open-uri'
 require 'pry'
 
 module LazyAdventurer
-class Destination
+class DestinationScraper
   attr_accessor :name, :region, :url
 
   def self.place
