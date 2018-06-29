@@ -27,4 +27,4 @@ def self.scrape_places
 
  end
 end
-end exit
+end 
